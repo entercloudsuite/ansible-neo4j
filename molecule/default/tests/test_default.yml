@@ -1,0 +1,12 @@
+---
+package:
+  neo4j:
+    installed: true
+user:
+  neo4j:
+    exists: true
+    groups:
+      - neo4j
+#process:
+#  neo4j:
+#    running: true
